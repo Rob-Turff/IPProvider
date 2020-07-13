@@ -1,0 +1,14 @@
+*.pyc
+*~
+/.vscode
+__pycache__
+db.sqlite3
+/static
+.DS_Store
+.idea
+/tests/geckodriver.log
+/functional_tests/login.txt
+/venv/
+/blog/geckodriver.log
+/geckodriver.log
+settings.txt
