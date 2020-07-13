@@ -4,7 +4,7 @@ URL = "https://robertturff.pythonanywhere.com/management/ip"
 
 file = open("../settings.txt", "r")
 ApiKey = "Api-Key "
-ApiKey += file.readline()
+ApiKey += file.readline().rstrip()
 file.close()
 
 headers = {"Authorization" : str(ApiKey)}
